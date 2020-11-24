@@ -23,7 +23,10 @@ document.addEventListener("DOMContentLoaded", function (_e) {
             alert("Votre appareil ne supporte pas la géolocalisation.");    
         }
     }
-    
+   
+	if('serviceWorker' in navigator){
+		navigator.serviceWorker.register('./sw.js')
+	}
     
     /******************************************************************
                             Gestion des événements 
