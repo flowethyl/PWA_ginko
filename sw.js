@@ -6,7 +6,7 @@ var cacheName = 'ginko_cache';
 	  './ginko_cache/app.js',
 	  './ginko_cache/style.css',
 	  './ginko_cache/icons/favicon.ico',
-	  './ginko_cache/icons/maskable_icon.png'
+	  './ginko_cache/icons/maskable_icon.png',
 	  './ginko_cache/icons/icon-32.png',
 	  './ginko_cache/icons/icon-64.png',
 	  './ginko_cache/icons/icon-96.png',
