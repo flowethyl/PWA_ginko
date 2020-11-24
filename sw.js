@@ -1,20 +1,20 @@
 
 var cacheName = 'ginko_cache';
 	var appShellFiles = [
-	  './ginko_cache',
-	  './ginko_cache/index.html',
-	  './ginko_cache/app.js',
-	  './ginko_cache/style.css',
-	  './ginko_cache/icons/favicon.ico',
-	  './ginko_cache/icons/maskable_icon.png',
-	  './ginko_cache/icons/icon-32.png',
-	  './ginko_cache/icons/icon-64.png',
-	  './ginko_cache/icons/icon-96.png',
-	  './ginko_cache/icons/icon-128.png',
-	  './ginko_cache/icons/icon-168.png',
-	  './ginko_cache/icons/icon-192.png',
-	  './ginko_cache/icons/icon-256.png',
-	  './ginko_cache/icons/icon-512.png'
+	  '.',
+	  './index.html',
+	  './app.js',
+	  './style.css',
+	  './icons/favicon.ico',
+	  './icons/maskable_icon.png',
+	  './icons/icon-32.png',
+	  './icons/icon-64.png',
+	  './icons/icon-96.png',
+	  './icons/icon-128.png',
+	  './icons/icon-168.png',
+	  './icons/icon-192.png',
+	  './icons/icon-256.png',
+	  './icons/icon-512.png'
 	];
 	
 self.addEventListener('install', (e) => {
