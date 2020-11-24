@@ -24,7 +24,7 @@ self.addEventListener('install', (e) => {
 		caches.open(cacheName).then((cache) => {
 		console.log('[Service Worker] Caching all: app shell and content');
 		return cache.addAll(appShellFiles)
-		})
+		});
 	};
 });
 
